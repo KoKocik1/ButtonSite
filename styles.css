@@ -40,15 +40,17 @@ main {
 
 #img-caption {
     color: #FFF;
-    font-size: 20px;
+    font-size: 2rem;
     margin-bottom: 20px;
 }
 
 /*********************  TITLE ***************************/
 #title {
     color: #FFF;
-    font-size: 96px;
-    margin-bottom: 10%;
+    font-size: 100px;
+    margin-bottom: 30%;
+    margin-top: 80px;
+    width: 80%;
 }
 
 #title-text {
@@ -302,4 +304,19 @@ section {
 
 .icon-item:nth-child(5) a:hover:before {
     background: var(--social-icon5);
+}
+
+/******************** media *****************/
+@media (max-width: 1281px) {
+    #title {
+        color: #FFF;
+        font-size: 50px;
+        margin-bottom: 10%;
+        width: 40%;
+        margin-top: 0;
+    }
+    #img-caption {
+        font-size: 1.2rem;
+
+    }
 }
