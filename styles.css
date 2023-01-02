@@ -20,12 +20,10 @@ main {
     text-align: center;
 }
 
-
-
 /*********************  IMAGE ***************************/
 #img-div {
     width: 100%;
-    height: 100vh;
+    height: auto;
     overflow: hidden;
     position: relative;
 }
@@ -37,6 +35,7 @@ main {
     position: absolute;
     top: 0;
     left: 0;
+    object-fit: fill;
 }
 
 #img-caption {
@@ -49,13 +48,13 @@ main {
 #title {
     color: #FFF;
     font-size: 96px;
-    margin-bottom: 20px;
+    margin-bottom: 10%;
 }
 
 #title-text {
     width: 100%;
     display: flex;
-    margin-top: 300px;
+    margin-top: 80px;
     z-index: 1;
     position: relative;
     justify-content: center;
